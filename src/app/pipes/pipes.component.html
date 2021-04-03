@@ -1,0 +1,71 @@
+<div class="container">
+
+    <h1>Pipes in Angular</h1> 
+    <hr>
+
+    <div class="card">
+        <div class="card-header">
+            Uppercase
+        </div>
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">{{ fname | uppercase }} </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            Lowercase
+        </div>
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">{{ fname | lowercase }} </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            Lowercase
+        </div>
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">{{ lname | lowercase }} </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            Titlecase
+        </div>
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">{{ fullName | titlecase }}</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            Slice
+        </div>
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">{{ fullName | slice:3:9 }}</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            Full Date
+        </div>
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">{{ birthday | date: 'fullDate' }}</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            Full Date | Uppercase
+
+        </div>
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">{{ birthday | date: 'fullDate' | uppercase }}</p>
+        </div>
+    </div>
+
+</div>
